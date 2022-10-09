@@ -55,7 +55,7 @@ divButtons.appendChild(restart);
 divButtons.appendChild(removeCircle);
 
 
-let colorsList = ['#008000','#f2bc1a','#305fed','#f2331a','#a525b0'];
+let colorsList = ['#008000','#f2bc1a','#305fed','#f2331a','#a525b0', '#00ffff','#ff00ff', '#00ff00', '#800080', '#800000', '#808080', '#000080'];
 let circles = document.createElement("div");
 circles.id = 'circles';
 circles.className = "circles-container";
@@ -65,7 +65,7 @@ addCircle.onclick = function() {
     let circle = document.createElement("div");
     circle.className = "circle";
     circle.id = "circle";
-    let color = colorsList[Math.floor(Math.random()*5)];
+    let color = colorsList[Math.floor(Math.random()*(colorsList.length))];
     circle.style.backgroundColor = color;
     circle.onclick = function() {
         circle.style.backgroundColor = circle.style.backgroundColor === "rgba(0, 0, 0, 0)" ? color : "#0000" ;
