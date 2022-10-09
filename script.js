@@ -8,7 +8,7 @@ let image = document.createElement('img');
 image.src = 'assets/restart.png';   
 image.style.width = '30px';
 image.style.height = '30px';
-image.title = "Reiniciar";
+image.title = "Reset";
 
 var button = document.createElement('button');
 button.type = 'button';
