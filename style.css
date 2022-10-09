@@ -1,0 +1,21 @@
+.circles-container {
+	float: left;
+	margin: 1em auto;
+	padding: 0.2em;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	margin: 20px;
+}
+body {
+    background-color: black;
+}
+#titulo {
+    color: rgb(214, 211, 211);
+    text-shadow: rgb(207, 200, 200) 0.01em 0.1em 0.1em;
+}
+
