@@ -8,6 +8,7 @@ let image = document.createElement('img');
 image.src = 'assets/restart.png';   
 image.style.width = '30px';
 image.style.height = '30px';
+image.title = "Reiniciar";
 
 var button = document.createElement('button');
 button.type = 'button';
@@ -15,6 +16,7 @@ button.className = 'btn-styled';
 button.appendChild(image);
 button.style.borderRadius = '20%';
 button.style.justifySelf = "center";
+
 
 let colorsList = ['#008000','#f2bc1a','#305fed','#f2331a','#a525b0'];
 
